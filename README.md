@@ -55,7 +55,7 @@ pip install -r requirements.txt
 pip install pytest-playwright
 ````
 Then:
-* Go to settings![img.png](img.png)
+* Go to settings!![img_2.png](img_2.png)
 * Go to Projects > Python Interpreter > add playwright > Install package![img_1.png](img_1.png)
 
 ### 4. Install Browsers
