@@ -1,6 +1,6 @@
 # 🎭 Playwright with Pytest
 
-Welcome! This repository documents my learning journey with Playwright using Python and Pytest. It includes examples, experiments, and notes as I explore browser automation and testing.
+Hello! This repository documents my learning journey with Playwright using Python and Pytest. It includes examples, experiments, and notes as I explore browser automation and testing.
 
 ---
 
