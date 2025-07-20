@@ -13,16 +13,16 @@ Welcome! This repository documents my learning journey with Playwright using Pyt
 
 ## 🛠️ Tech Stack
 
-- **Language:** Python 3.x
+- **Language:** Python 3.9.13
 - **Test Framework:** Pytest
 - **Automation Library:** Playwright
-- **Others:** `pytest-playwright`
+- **Others:** `pytest-playwright`, `pytest-html` (for optional reports)
 
 ---
 
 ## 🚀 Getting Started
 
-### 0. Download/Install Pycharm:[Pycharm Download](https://www.jetbrains.com/help/pycharm/installation-guide.html#standalone)
+### 0. Download/Install Pycharm: [Pycharm Download](https://www.jetbrains.com/help/pycharm/installation-guide.html#standalone)
 
 ### 1. Clone the Repository
 
