@@ -61,3 +61,26 @@ Then:
 ### 4. Install Browsers
 ```bash
 playwright install
+````
+
+#### 🧪 Running Tests
+```` bash
+pytest
+````
+#### Run with HTML Report
+```` bash
+pytest --html=report.html
+````
+#### Run a Specific Test File
+```` bash
+pytest tests/test_example.py
+````
+#### 🌐 Running Tests on Different Browsers
+```` bash
+playwright codegen <url you are testing(e.g: https://google.com)>
+````
+
+###### 🤝 Contributions
+This is primarily for my own learning, but feel free to fork or suggest improvements via PR or Issues.
+###### 📄 License
+This project is for educational purposes and is currently not licensed for production use.
