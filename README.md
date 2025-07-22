@@ -55,8 +55,8 @@ pip install -r requirements.txt
 pip install pytest-playwright
 ````
 Then:
-* Go to settings!![img_2.png](img_2.png)
-* Go to Projects > Python Interpreter > add playwright > Install package!![img.png](img.png)
+* Go to settings!![img_2.png](Images/img_2.png)
+* Go to Projects > Python Interpreter > add playwright > Install package!![img.png](Images/img.png)
 
 ### 4. Install Browsers
 ```bash
@@ -78,6 +78,14 @@ pytest tests/test_example.py
 #### 🌐 Running Tests on Different Browsers
 ```` bash
 playwright codegen <url you are testing(e.g: https://google.com)>
+````
+#### Running Playwright Traceviewer
+```` bash
+pytest --tracing on
+````
+#### 🌐 Viewing Playwright Traceviewer
+```` bash
+playwright show-trace <path to the zip file>
 ````
 
 ###### 🤝 Contributions
