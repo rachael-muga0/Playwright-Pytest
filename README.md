@@ -29,39 +29,35 @@ Hello! This repository documents my learning journey with Playwright using Pytho
 ```bash
 git clone https://github.com/rachael-muga0/Playwright-Pytest.git
 cd playwright-pytest
-````
+```
 
 ### 2. Create a Virtual Environment (Optional but Recommended)
 ```bash
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
- ````
+ ```
 
-### 3. Install Dependencies
+### 3. Install Python Extension (VS Code / VSCodium only)
+* Open VS Code / VSCodium
+* Go to Extensions (Ctrl+Shift+X)
+* Search for Python (by Microsoft) and install it
+
+### 4. Install Dependencies
 ```bash
-pip install -r requirements.txt
-````
-If you don’t have requirements.txt yet, create it with:
-* pytest
-* playwright
-* pytest-playwright
-* pytest-html (Optional: for generating test reports)
-Then run:
-```bash
-pip install -r requirements.txt
-````
-### Install Playwright
-````bash
+pip install --upgrade pip
+pip install pytest
+pip install playwright
 pip install pytest-playwright
-````
-Then:
-* Go to settings!![img_2.png](Images/img_2.png)
-* Go to Projects > Python Interpreter > add playwright > Install package!![img.png](Images/img.png)
-
-### 4. Install Browsers
+pip install pytest-html  # optional
+```
+### 4. Install Playwright Browsers
 ```bash
 playwright install
-````
+```
+On Linux, ensure all required system libraries are installed (see Playwright docs).
+If using PyCharm,
+* Go to settings!![img_2.png](Images/img_2.png)
+* Go to Projects > Python Interpreter > add playwright > Install package!![img.png](Images/img.png)
 
 #### 🧪 Running Tests
 ```` bash
